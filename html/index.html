@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Rock, Paper, Scissors game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-of-game">
+            <h1>Welcome to Rock, Paper and Scissors Game</h1>
+            <h2>Battle against the computer!!</h2>
+        </div> 
+
+        <div class="scoreboard">
+            <h1>Player: <span id="playerScoreSpan">0</span></h1>
+            <h1>Computer: <span id="computerScoreSpan">0</span></h1>
+            <h1>Tie: <span id="tieGame">0</span></h1>
+        </div>
+
+        <div class="choose">
+            <h2>Choose:</h2>
+        </div>
+
+        <div class="flexbox">
+            <div class="rock">
+                <button id="rock-btn" class="gameChoice">Rock</button>
+                <div class="rock-text">
+                    <p id="rock-pId">The computer guessed: <span id="rock-p"></span></p>
+                </div>
+            </div>
+            <div class="paper">
+                <button id="paper-btn" class="gameChoice">Paper</button>
+                <div class="paper-text">
+                    <p id="paper-pId">The computer guessed: <span id="paper-p"></span></p>
+                </div>
+            </div>
+            <div class="scissors">
+                <button id="scissors-btn" class="gameChoice">Scissors</button>
+                <div class="scissors-text">
+                    <p id="scissors-pId">The computer guessed: <span id="scissors-p"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

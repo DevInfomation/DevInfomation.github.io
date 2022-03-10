@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.scoreboard {
+    text-align: center;
+}
+
+.title-of-game {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.rock {
+    flex: 1;
+}
+
+.paper {
+    flex: 1;
+}
+
+.gameChoice {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0);
+    border-radius: 3px;
+    cursor: pointer;
+}
